@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import FallWiter from "./FallWiter";
 import VersitySection from "./VersitySection";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <VersitySection></VersitySection>
+            <FallWiter></FallWiter>
         </div>
     );
 };
