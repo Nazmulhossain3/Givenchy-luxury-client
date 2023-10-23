@@ -9,6 +9,7 @@ import "./index.css";
 import Main from './Component/Main.jsx';
 import Home from './Pages/Home/Home.jsx';
 import Women from './Pages/Women/Women';
+import Men from './Pages/Men/Men';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     {
       path : '/women',
       element : <Women></Women>
+    },
+    {
+      path : '/men',
+      element : <Men></Men>
     }
   
   
