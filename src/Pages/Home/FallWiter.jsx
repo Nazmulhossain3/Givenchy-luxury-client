@@ -1,4 +1,5 @@
 import FallWinter from '../../assets/img/FallWinter.avif'
+import Footer from './Footer/Footer';
 const FallWiter = () => {
     return (
         <div className='bg-[#FCF3EA]'>
@@ -8,7 +9,7 @@ const FallWiter = () => {
                 <p className='mb-12'>FOR HERTHE VOYOU BAG</p>
                 <img src={FallWinter} alt="" />
             </div>
-            
+            <Footer></Footer>
         </div>
     );
 };
