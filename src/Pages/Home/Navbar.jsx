@@ -23,7 +23,7 @@ const Navbar = () => {
     </div>
  
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-center hidden lg:flex text-sm">
     <ul className="menu menu-horizontal mr-[700px] px-1 gap-8">
      <Link to='/'> <li>HOME</li></Link>
      <Link to='/women'> <li>WOMEN</li></Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
     </ul>
   </div>
  
-  <div className="navbar-end lg:relative lg:right-40">
+  <div className="navbar-end lg:relative lg:right-40 text-sm">
   <ul className=" flex items-center gap-6">
       
      

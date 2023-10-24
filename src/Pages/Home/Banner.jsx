@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import stikyImg from '../../assets/img/Stikyimg.jpg'
 import banner from '../../assets/img/banner.webp'
 const Banner = () => {
@@ -13,7 +14,7 @@ const Banner = () => {
               </div>
 
                 <div className=''>
-                    <img className='flex mx-auto p-6' src={banner} alt="" />
+                <Link to='/arrival'><img className='flex mx-auto p-6' src={banner} alt="" /></Link>
                 </div>
         </div>
     );
