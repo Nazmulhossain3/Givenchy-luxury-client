@@ -3,7 +3,7 @@ const Strass = () => {
  const [strassProducts,setStrassProduct] = useState([])
 
     useEffect(()=> {
-        fetch('/StrassData.json')
+        fetch('StrassData.json')
         .then(res => res.json())
         .then(data => {
             console.log(data)

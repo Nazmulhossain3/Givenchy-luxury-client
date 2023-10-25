@@ -7,7 +7,7 @@ const Classic = () => {
     const [classicProducts,setClassicProduct] = useState([])
 
     useEffect(()=> {
-        fetch('/ClassicData.json')
+        fetch('ClassicData.json')
         .then(res => res.json())
         .then(data => {
             console.log(data)

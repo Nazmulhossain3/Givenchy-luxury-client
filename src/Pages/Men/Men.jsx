@@ -7,7 +7,7 @@ const Men = () => {
     const [menProducts,setMenProduct] = useState([])
 
     useEffect(()=> {
-        fetch('/MenData.json')
+        fetch('MenData.json')
         .then(res => res.json())
         .then(data => {
             console.log(data)
