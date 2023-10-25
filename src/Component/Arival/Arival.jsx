@@ -3,6 +3,7 @@ import arrivalVideo from '../../assets/img/video.mp4'
 
 
 import Classic from './Classic';
+import Slider from './Slider';
 import Strass from './Strass';
 
 const Arival = () => {
@@ -34,6 +35,8 @@ const Arival = () => {
 
        <Classic></Classic>
        <Strass></Strass>
+       <Slider></Slider>
+      
 
 
     
