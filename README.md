@@ -1,9 +1,17 @@
-# React + Vite
+# givenchy Luxury site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Home Page
 
-Currently, two official plugins are available:
+➡ Home Page contain a Navbar where include different route, Basically, Home, Men, Women are routes currently added product.Apart from this, there have banner and more related picture or section.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Givenchy-luxury-client
+# Banner
+
+➡ After clicking the Banner image, User can be see arrival page where include different types of upcoming product listed are added.
+
+# Men
+
+➡ After clicking the men route, user can see the different type of Men product include price and product name.
+
+# Women
+
+➡ After clicking the women route, user can see the different type of Women product include price and product name.
